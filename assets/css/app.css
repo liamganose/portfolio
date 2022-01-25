@@ -1,0 +1,15 @@
+:root {
+	-light-gradient: linear-gradient(95.08deg, #00baff 2.49%, #063ef9 97.19%);
+	--dark-gradient: linear-gradient(
+		95.08deg,
+		#945bf1 2.49%,
+		#bb48bf 49%,
+		#f67e4d 97.19%
+	);
+}
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;-
