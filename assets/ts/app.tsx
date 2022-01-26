@@ -1,6 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Home } from "./components/pages/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-const react_body = document.getElementById("home-page");
-ReactDOM.render(<Home />, react_body);
+import { Header } from "Molecules/Header";
+import { Home } from "Pages/Home";
+import { About } from "Pages/About";
+import { Work } from "Pages/Work";
+
+ReactDOM.render(
+    <div className="flex flex-col justify-between min-h-screen">
+        <Router>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/work" element={<Work />} />
+            </Routes>
+        </Router>
+    </div>,
+  document.getElementById("root")
+);

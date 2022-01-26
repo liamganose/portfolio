@@ -1,11 +1,10 @@
-import { Header } from '../../molecules/Header';
+import React from "react";
 
 const Home = () => {
     return (
-        <Header />
-        <div>
-        This is the home page.
-        </div>
+        <p>
+            Test
+        </p>
     );
 };
 
