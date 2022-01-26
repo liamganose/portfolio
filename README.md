@@ -10,3 +10,11 @@ I used this in part to develop my Elixir and Typescript skills but also to serve
 2. Make sure you have docker installed.
 3. Run `docker-compose build` followed by `docker-compose up`.
 4. Go to `localhost:4000` to view.
+
+# To do
+1. Add icons in footers
+2. Add content to all 3 pages
+3. Change colour scheme
+4. Decide what to do with top left (link/name/??)
+5. Add tests
+6. Automate deploying using actions
