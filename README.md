@@ -18,3 +18,4 @@ I used this in part to develop my Elixir and Typescript skills but also to serve
 4. Decide what to do with top left (link/name/??)
 5. Add tests
 6. Automate deploying using actions
+7. Make it work for mobile
