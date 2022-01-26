@@ -3,7 +3,8 @@ const { spacing, fontFamily } = require('tailwindcss/defaultTheme');
 module.exports = {
 	content: [
 		'./ts/app.tsx',
-		'./ts/components/**/*.tsx',
+		'./ts/components/**/*.ts*',
+        '../lib/*_web/**/*.*ex'
 	],
 	darkMode: 'class',
 	theme: {
