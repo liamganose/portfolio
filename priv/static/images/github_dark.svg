@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>github-svg</title>
+	<defs>
+		<image  width="62" height="62" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+AQMAAABJDzoHAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAA10lEQVR4nLWSwQnDMAxFFQL10SN4kYJHizfpKt6gK/jWa0ovKRir+l+GUOi1gTgvWF/6liwiEorwWXQ4RNVK2FQP31HfWw10hnhQAjSDDNhd5DJ8tbuaeqqhDw5FwjDZ0yAOFLWMqa8timVMHXUMssP+A7ZBc4eDAPoEN26/Diahuf/Ady2A2+inn9Oqso+Aij7acZAIS74NNGuXdNca0Nb00EKIL0X7qsQ3wVp3TFj7FWDZ+5zhgpcWbNthQ/DOMRk0TtAAEwyAQney+g0w4Ekky9IIF64fMBzi/yflmiwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="1" y="1" />
+</svg>

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>linkedin-svg</title>
+	<defs>
+		<image  width="62" height="62" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+AQMAAABJDzoHAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAAZ0lEQVR4nGOw/w8GPxjqYQwI/f8PuYwPMMaBehjDHspogDPkMRj26IofwLT/JNEZ/5gh5jRUMEAZCQz2aAwHBnkIgwHB4Icw+BugDPkHUIY9nPGBHcKoH9wMCmMQxqiHMH4w2EMYHwAiYoVOGe2wKwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="1" y="1" />
+</svg>
