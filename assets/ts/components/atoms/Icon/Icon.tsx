@@ -11,12 +11,12 @@ export interface IconProps {
 
 const Icon: React.FC = ({ icon }: IconProps) => {
     const { resolvedTheme } = useTheme();
-    const [iconUrl, setIconUrl] = useState(`/images/${icon}_light.svg`);
+    const [iconUrl, setIconUrl] = useState(`/images/${icon}_dark.svg`);
 
     useEffect(() => {
         setIconUrl(`/images/${icon}_${resolvedTheme}.svg`);
 	}, [resolvedTheme]); 
-    
+
     return <img src={iconUrl} />;
 
 };

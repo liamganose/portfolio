@@ -35,6 +35,7 @@ const Header = () => {
                             <HeaderItem href="/about" title="About" />
                             <HeaderItem href="/work" title="Work" />
                             <HeaderItem href="/blog" title="Blog" />
+                            <HeaderItem href="/recipes" title="Recipes" />
                         </ul>
                     </nav>
                     <div className="hidden md:block">

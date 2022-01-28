@@ -12,10 +12,9 @@ I used this in part to develop my Elixir and Typescript skills but also to serve
 4. Go to `localhost:4000` to view.
 
 # To do
-1. Stop refresh removing theme class
-2. Add content to all 3 pages
-3. Change colour scheme
-5. Add tests
-6. Automate deploying using actions
-7. Make it work for mobile
-8. write at least 1 blog post
+1. Add content to all 3 pages
+2. Change colour scheme
+3. Add tests
+4. Automate deploying using actions
+5. Make it work for mobile
+6. write at least 1 blog post

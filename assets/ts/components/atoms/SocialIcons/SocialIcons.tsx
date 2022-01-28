@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import { Icon, IconProps } from "Atoms/Icon";
 
@@ -19,9 +18,9 @@ const SocialIcons: React.FC<SocialIconProps> = ({ profiles }: SocialIconProps) =
 					className="w-6 h-6 opacity-70 hover:opacity-100 transition"
 					key={name}
 				>
-					<Link to={url} target="_blank" rel="noopener noreferrer" title={name}>
+					<a href={url} target="_blank" title={name}>
 						<Icon icon={icon} />
-					</Link>
+					</a>
 				</li>
 			))}
 		</ul>

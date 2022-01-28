@@ -6,8 +6,10 @@ const ThemeButton: React.FC = () => {
     const [mounted, setMounted] = useState(false);
 	const { resolvedTheme, setTheme } = useTheme(); 
 
-    // When mounted on client, now we can show the UI
-    useEffect(() => setMounted(true), []);
+    useEffect(() => {
+        setMounted(true);
+        setTheme(resolvedTheme);
+    }, []);
 
     return (
         <button
