@@ -4,9 +4,11 @@ import { useEffect, useState } from "react";
 
 export interface IconProps {
     icon:
+        | "mail"
         | "github"
         | "linkedin"
-        | "spotify";
+        | "spotify"
+        | "download";
 }
 
 const Icon: React.FC = ({ icon }: IconProps) => {
