@@ -82,7 +82,6 @@ const Experience: React.FC = () => {
             "summary": [
                 "Implemented machine learning models to detect data quality issues on a range of investment data.",
                 "Used PySpark and MLlib when the datasets were too large to be run in memory.",
-                "This reduced the manual review time of these results from months to minutes.",
                 "Identified unknown anomalous transactional data and automatically generated new data quality rules.",
                 "This helped minimise the potential regulatory and financial impact of erroneous data."
             ]

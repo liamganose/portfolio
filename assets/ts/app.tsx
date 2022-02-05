@@ -7,8 +7,7 @@ import { Header } from "Molecules/Header";
 import { Home } from "Pages/Home";
 import { About } from "Pages/About";
 import { Work } from "Pages/Work";
-import { Blog } from "Pages/Blog";
-import { Recipes } from "Pages/Recipes";
+import { Projects } from "Pages/Projects";
 import { Footer } from "Molecules/Footer";
 
 const App: React.FC = () => {
@@ -23,8 +22,7 @@ const App: React.FC = () => {
                             <Route path="/" element={<Home />} />
                             <Route path="/about" element={<About />} />
                             <Route path="/work" element={<Work />} />
-                            <Route path="/blog" element={<Blog />} />
-                            <Route path="/recipes" element={<Recipes />} />
+                            <Route path="/projects" element={<Projects />} />
                         </Routes>
                     </div>
                     <Footer />

@@ -45,7 +45,7 @@ const About = () => {
                 write custom addons for a video game I used to love; which also taught me 
                 a lot about servers, networks and databases. Nowadays my main language is
                 Python but I can still comfortably write C++, JavaScript, TypeScript and SQL 
-                and I'm always trying to learn more. Currently I'm trying to learn Elixir, 
+                - and I'm always trying to learn more. Currently I'm trying to learn Elixir, 
                 which is in-part why I made this website.
             </p>
             <p>

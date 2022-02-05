@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Skills } from "Molecules/Skills";
 import { Experience } from "Molecules/Experience";
 import { Education } from "Molecules/Education";
 import { Icon } from "Atoms/Icon";
@@ -8,6 +9,7 @@ const Work: React.FC = () => {
     return (
         <>
             <h2 className="headline mt-12 mb-4 text-4xl">Skills</h2>
+            <Skills />
             <h2 className="headline mt-12 mb-4 text-4xl">Experience</h2>
 		    <Experience />
             <h2 className="headline mt-12 mb-4 text-4xl">Education</h2>

@@ -34,8 +34,7 @@ const Header = () => {
 						<ul className="flex gap-8 text-lg">
                             <HeaderItem href="/about" title="About" />
                             <HeaderItem href="/work" title="Work" />
-                            <HeaderItem href="/blog" title="Blog" />
-                            <HeaderItem href="/recipes" title="Recipes" />
+                            <HeaderItem href="/projects" title="Projects" />
                         </ul>
                     </nav>
                     <div className="hidden md:block">
