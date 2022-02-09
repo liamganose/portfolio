@@ -17,8 +17,6 @@ defmodule PortfolioWeb.Router do
   scope "/", PortfolioWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
-    get "/work", PageController, :index
-    get "/about", PageController, :index
+    get "/*path", PageController, :index
   end
 end

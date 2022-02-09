@@ -29,7 +29,7 @@ const Home = () => {
 
     return (
         <>
-            <h1 className="headline mt-26 text-3xl md:text-5xl lg:text-6xl lg:leading-loose">
+            <h1 className="mt-26 text-3xl md:text-5xl lg:text-6xl lg:leading-loose">
                 Hey, I&apos;m Liam Ganose 
 		    </h1>
 		    <p className="mb-8 text-lg">

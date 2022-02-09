@@ -24,7 +24,7 @@ const About = () => {
 
     return (
         <>
-            <h1 className="headline text-3xl md:text-5xl lg:text-6xl mt-8 lg:leading-loose">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl mt-8 lg:leading-loose">
 				Hey, I&apos;m Liam
 			</h1>
 			<h2 className="font-bold text-xl md:text-2xl mb-8">
@@ -53,9 +53,9 @@ const About = () => {
                 I was 6 and still play twice a week. On my free evenings I love to cook and I 
                 also try to go to a gig once or twice a month (covid permitting).
             </p>
-			<h2 className="headline mt-6 mb-2 text-4xl leading-loose">Podcasts I listen to</h2>
+			<h2 className="mt-6 mb-2 text-4xl leading-loose">Podcasts I listen to</h2>
             <ContentList content={podcasts} />
-			<h2 className="headline mt-6 mb-2 text-4xl leading-loose">Playlists I listen to</h2>
+			<h2 className="mt-6 mb-2 text-4xl leading-loose">Playlists I listen to</h2>
             <ContentList content={playlists} />
         </>
     );

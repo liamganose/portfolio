@@ -1,12 +1,21 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
+import { BurgerIcon } from "Atoms/BurgerIcon";
 import { HeaderItem } from "Atoms/HeaderItem";
 import { ThemeButton } from "Atoms/ThemeButton";
+import { MobileMenu } from 'Molecules/MobileMenu';
+
+const headerItems: {href: string; title: string;}[] = [
+    {"href": "/about", "title": "About"},
+    {"href": "/work", "title": "Work"},
+    {"href": "/projects", "title": "Projects"}
+];
 
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
+    let location = useLocation();
 
 	useEffect(() => {
 		if (isOpen) {
@@ -17,6 +26,10 @@ const Header = () => {
 			document.body.style.overflow = 'unset';
 		};
 	}, [isOpen]);
+
+    useEffect(() => {
+		setIsOpen(false);
+	}, [location]);
 
 	return (
 		<>
@@ -32,18 +45,26 @@ const Header = () => {
 					</Link>
                     <nav className="hidden md:block">
 						<ul className="flex gap-8 text-lg">
-                            <HeaderItem href="/about" title="About" />
-                            <HeaderItem href="/work" title="Work" />
-                            <HeaderItem href="/projects" title="Projects" />
+                            {headerItems.map(({ href, title }, i) => (
+                                <HeaderItem href={href} title={title} key={i}/>
+                            ))}
                         </ul>
                     </nav>
+                    <button
+						className="absolute z-50 top-8 right-4 md:hidden"
+						onClick={() => setIsOpen((prev) => !prev)}
+						aria-label="Menu"
+					>
+						<BurgerIcon isOpen={isOpen} />
+					</button>
                     <div className="hidden md:block">
 						<ThemeButton />
 					</div>
 				</div>
 			</header>
+            <MobileMenu isOpen={isOpen} />
 		</>
 	);
 };
 
-export { Header };
+export { Header, headerItems };

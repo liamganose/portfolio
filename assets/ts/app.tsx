@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
 
 import { Header } from "Molecules/Header";
@@ -23,6 +23,7 @@ const App: React.FC = () => {
                             <Route path="/about" element={<About />} />
                             <Route path="/work" element={<Work />} />
                             <Route path="/projects" element={<Projects />} />
+                            <Route path='*' element={<Navigate replace to="/" />} />
                         </Routes>
                     </div>
                     <Footer />
