@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
 
     return (
         <>
-            <h1 className="mt-26 mb-2 text-3xl md:text-5xl lg:text-6xl lg:leading-loose">
+            <h1 className="headline mt-26 mb-2 text-3xl md:text-5xl lg:text-6xl lg:leading-loose">
                 Github Repos
             </h1>
             <p className="mb-8 text-lg">
@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
             {projects.map(({ title, url, technologies, description }: projectProps, i: number) => (
                 <a href={url} target="_blank" key={i}>
                     <div className="md:w-10/12 px-8 py-6 rounded-3xl glass-light dark:glass-dark mb-6 drop-shadow-lg hover:drop-shadow-2xl transition-all">
-                        <h2 className=" text-xl md:text-2xl font-bold mb-2">{title}</h2>
+                        <h2 className="headline-reversed text-xl md:text-2xl font-bold mb-2">{title}</h2>
                         <p className="text-sm mb-4">
 				    	    <strong>Tech used: </strong>{technologies.join(', ')}
 				        </p>

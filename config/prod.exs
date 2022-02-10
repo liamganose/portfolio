@@ -21,7 +21,7 @@ config :logger, level: :info
 #
 #     config :portfolio, PortfolioWeb.Endpoint,
 #       ...,
-#       url: [host: "example.com", port: 443],
+#       url: [host: "liamganose.com", port: 443],
 #       https: [
 #         ...,
 #         port: 443,
@@ -43,7 +43,7 @@ config :logger, level: :info
 # We also recommend setting `force_ssl` in your endpoint, ensuring
 # no data is ever sent via http, always redirecting to https:
 #
-#     config :portfolio, PortfolioWeb.Endpoint,
-#       force_ssl: [hsts: true]
+config :portfolio, PortfolioWeb.Endpoint,
+  force_ssl: [hsts: true]
 #
 # Check `Plug.SSL` for all available options in `force_ssl`.

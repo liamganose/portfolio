@@ -5,6 +5,7 @@ import { ContentList, ContentListProps, ContentListItem } from "Atoms/ContentLis
 const About = () => {
     const podcasts: ContentListProps<ContentListItem> = [
         {"name": "99% Invisible", "url": "https://open.spotify.com/show/2VRS1IJCTn2Nlkg33ZVfkM?si=29788887f10d439f", "image": "99-percent.jpg"},
+        {"name": "Broken Record", "url": "https://open.spotify.com/show/6UsuhRMTD9O71DznRP8540", "image": "broken-record.jpg"},
         {"name": "The Always Sunny Podcast", "url": "https://open.spotify.com/show/0xDEeqWuoMNBUFGNrhIz6L?si=f7bf7feab6d14ff6", "image": "always-sunny.jpg"},
         {"name": "Developer Tea", "url": "https://open.spotify.com/show/02fM1JHpt9HmHGp482K71b?si=10e033f677b04821", "image": "developer-tea.jpg"},
         {"name": "Dissect", "url": "https://open.spotify.com/show/2b025hq3gJ17tQdxS3aV43?si=5c300ae6e4754d3b", "image": "dissect.jpg"},
@@ -24,7 +25,7 @@ const About = () => {
 
     return (
         <>
-            <h1 className="text-3xl md:text-5xl lg:text-6xl mt-8 lg:leading-loose">
+            <h1 className="headline text-2xl md:text-5xl lg:text-6xl mt-8 lg:leading-loose">
 				Hey, I&apos;m Liam
 			</h1>
 			<h2 className="font-bold text-xl md:text-2xl mb-8">
