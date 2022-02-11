@@ -4,6 +4,5 @@ services:
     elixir:
         build: .
         ports:
-            - "4000:4000"
-        volumes:
-            - ".:/app"
+            - "433:4000"
+            - "80:4000"

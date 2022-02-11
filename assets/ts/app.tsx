@@ -12,7 +12,7 @@ import { Footer } from "Molecules/Footer";
 
 const App: React.FC = () => {
     return (
-        <ThemeProvider attribute="class">
+        <ThemeProvider defaultTheme="light" attribute="class">
             <div className="antialiased bg-grey-200 text-off-black dark:bg-off-black
                 dark:text-off-white flex flex-col justify-between min-h-screen">
                 <Router>
