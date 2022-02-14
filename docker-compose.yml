@@ -3,6 +3,12 @@ version: '3'
 services:
     elixir:
         build: .
+        volumes:
+            - ${SSL_KEY_PATH}:${SSL_KEY_PATH}
+            - ${SSL_CERT_PATH}:${SSL_CERT_PATH}
+            - ${SSL_CHAIN_PATH}:${SSL_CHAIN_PATH}
+        env_file:
+            - .env
         ports:
-            - "433:4000"
             - "80:4000"
+            - "443:4001"

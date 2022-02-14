@@ -1,0 +1,6 @@
+MIX_ENV=prod
+NODE_ENV=production
+PHX_HOST=liamganose.com
+SECRET_KEY_BASE=<secret_key_base>
+SSL_KEY_PATH=<ssl_key_path>
+SSL_CERT_PATH=<ssl_cert_path>

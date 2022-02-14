@@ -24,6 +24,6 @@
     "typescript": "^4.5.4"
   },
   "scripts": {
-    "deploy": "NODE_ENV=production npx tailwindcss --postcss --minify --input=css/app.css --output=../priv/static/assets/app.css"
+    "deploy": "npx tailwindcss --postcss --minify --input=css/app.css --output=../priv/static/assets/app.css"
   }
 }

@@ -19,11 +19,11 @@ COPY . /app
 WORKDIR /app
 
 # install dependencies and build
-RUN mix deps.clean --all && mix deps.get && mix deps.compile
+RUN mix deps.clean --all --unlock && mix deps.get && mix deps.compile
 
 # install npm assets
 RUN npm i -g npm@latest
-RUN NODE_ENV=production npm install --prefix ./assets --legacy-peer-deps --unsafe-perm
+RUN npm install --prefix ./assets --legacy-peer-deps --unsafe-perm
 
 # deploy assets
 RUN mix assets.deploy

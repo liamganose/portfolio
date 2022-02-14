@@ -9,7 +9,7 @@ import Config
 
 # Configures the endpoint
 config :portfolio, PortfolioWeb.Endpoint,
-  url: [host: "localhost"],
+  secret_key_base: System.get_env("SECRET_KEY_BASE"),
   render_errors: [view: PortfolioWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Portfolio.PubSub,
   live_view: [signing_salt: "LN4MRT/r"]
