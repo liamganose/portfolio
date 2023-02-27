@@ -8,17 +8,18 @@ const Experience: React.FC = () => {
     const experience: InfoBoardProps[] = [
         {
             "company": "The Voleon Group",
-            "title": "Production Engineer",
+            "title": "Site Reliability Engineer",
             "date": "Jul. 2021 - present",
             "icon": "voleon",
             "technologies": ["Python", "Bash", "Docker", "Airflow", "Git", "SQL", "Pandas", "Linux", "Jenkins"],
             "summary": [
-                "Development, improvement and maintenance of a Python codebase being scheduled in Apache Airflow.",
-                "Worked on a live system where it is important to develop efficient, scalable and maintainable code.",
-                "Deployed an automated SLA system which paged on-call staff if there were delays in the live jobs.",
-                "Created tests and documentation for new and existing scripts.",
-                "Involved in first line support - debugging production critical issues.",
-                "Mentored new members of the team on the code base and infrastructure."
+		"Development, improvement and maintenance of a trading system (Python) being orchestrated by Airflow DAGs.",
+		"Improved fixed income data mapping code which increased simulated PnL by over 2\%.",
+		"Mentored and trained over 10 new employees on in-house/open-source tooling.",
+		"Built an automated SLA system which paged on-call staff if there were delays which could affect trading.",
+		"Involved in first line support -- debugging production issues which would be critical to the trading day if not remediated.",
+		"Worked on a production critical system where developing efficient, scalable and maintainable code is extremely important.",
+		"Worked with DevOps tooling; such as Kubernetes, Jenkins (CI/CD) and Prometheus."
             ]
         },
         {
