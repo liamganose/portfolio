@@ -24,7 +24,9 @@ const Home = () => {
         "React",
         "Git",
         "AWS",
-        "Elixir"
+        "Elixir",
+	"Airflow",
+	"Kubernetes"
     ];
 
     return (
@@ -33,7 +35,7 @@ const Home = () => {
                 Hey, I&apos;m Liam Ganose 
 		    </h1>
 		    <p className="mb-8 text-lg">
-                I&apos;m a software engineer with 3+ years experience specialising 
+                I&apos;m a software engineer with 4+ years experience specialising 
                 in backend development, infrastructure automation and data science.
                 I'm massively passionate about all areas of tech and am constantly 
                 learning new technologies and applying them to things I find interesting.
