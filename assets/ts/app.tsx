@@ -8,6 +8,7 @@ import { Home } from "Pages/Home";
 import { About } from "Pages/About";
 import { Work } from "Pages/Work";
 import { Projects } from "Pages/Projects";
+import { Blog } from "Pages/Blog";
 import { Footer } from "Molecules/Footer";
 
 const App: React.FC = () => {
@@ -23,6 +24,7 @@ const App: React.FC = () => {
                             <Route path="/about" element={<About />} />
                             <Route path="/work" element={<Work />} />
                             <Route path="/projects" element={<Projects />} />
+                            <Route path="/blog" element={<Blog />} />
                             <Route path='*' element={<Navigate replace to="/" />} />
                         </Routes>
                     </div>

@@ -10,6 +10,13 @@ interface projectProps {
 const Projects: React.FC = () => {
     const projects: projectProps[] = [
         {
+            "title": "Godo",
+            "url": "https://github.com/liamganose/godo",
+            "technologies": ["Go", "Cobra"],
+            "description": "A todo app written in Go to learn the language and get used \
+                            to the Cobra/Viper pkgs."
+        },
+        {
             "title": "Portfolio",
             "url": "https://github.com/liamganose/portfolio",
             "technologies": ["Elixir (Phoenix)", "TypeScript", "React", "Docker"],

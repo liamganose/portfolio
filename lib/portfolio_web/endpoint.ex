@@ -16,7 +16,7 @@ defmodule PortfolioWeb.Endpoint do
     at: "/",
     from: :portfolio,
     gzip: false,
-    only: ~w(assets cv-2022.pdf fonts images favicons robots.txt)
+    only: ~w(assets cv.pdf fonts images favicons robots.txt)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.

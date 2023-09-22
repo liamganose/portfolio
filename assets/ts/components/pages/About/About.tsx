@@ -26,7 +26,7 @@ const About = () => {
     return (
         <>
             <h1 className="headline text-2xl md:text-5xl lg:text-6xl mt-8 lg:leading-loose">
-				Hey, I&apos;m Liam
+				Liam Ganose
 			</h1>
 			<h2 className="font-bold text-xl md:text-2xl mb-8">
 				Software Engineer in London, UK
@@ -36,23 +36,23 @@ const About = () => {
                 with a degree in Computer Science and Mathematics. After that I moved 
                 to London and started working as a data science consultant at PwC
                 where I then transitioned into software engineering. I have since 
-                joined The Voleon Group - where I am now working as a production / 
+                moved on to a tech hedge fund - where I am now working as a production / 
                 software engineer.
             </p>
 			<p className="my-4">
-                I am 24 years old and have been coding for as a long as I can remember.
+                I've been coding for as a long as I can remember.
                 I first started learning HTML at age 11 as my older brother was building 
                 websites and I found it really cool. I then learned Lua so that I could 
                 write custom addons for a video game I used to love; which also taught me 
                 a lot about servers, networks and databases. Nowadays my main language is
-                Python but I can still comfortably write C++, JavaScript, TypeScript and SQL 
+                Python but I can still comfortably write JavaScript, Go and SQL 
                 - and I'm always trying to learn more. Currently I'm trying to learn Elixir, 
                 which is in-part why I made this website.
             </p>
             <p>
                 Aside from programming, I'm really into sports. I've been playing hockey since
                 I was 6 and still play twice a week. On my free evenings I love to cook and I 
-                also try to go to a gig once or twice a month (covid permitting).
+                also try to go to a gig once or twice a month.
             </p>
 			<h2 className="mt-6 mb-2 text-4xl leading-loose">Podcasts I listen to</h2>
             <ContentList content={podcasts} />

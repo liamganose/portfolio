@@ -10,7 +10,7 @@ const Home = () => {
         "TypeScript",
         "Flask",
         "Docker",
-        "C++",
+        "Go",
         "Machine Learning",
         "PySpark",
         "Big Data",
@@ -25,18 +25,18 @@ const Home = () => {
         "Git",
         "AWS",
         "Elixir",
-	"Airflow",
-	"Kubernetes"
+	    "Airflow",
+	    "Kubernetes"
     ];
 
     return (
         <>
             <h1 className="headline mt-26 text-3xl md:text-5xl lg:text-6xl lg:leading-loose">
-                Hey, I&apos;m Liam Ganose 
+                Hey, I&apos;m Liam 
 		    </h1>
 		    <p className="mb-8 text-lg">
-                I&apos;m a software engineer with 4+ years experience specialising 
-                in backend development, infrastructure automation and data science.
+                I&apos;m a software engineer with 5+ years professional experience specialising 
+                in backend development, infrastructure automation and frontend development.
                 I'm massively passionate about all areas of tech and am constantly 
                 learning new technologies and applying them to things I find interesting.
                 I'm also really into sports, going to gigs and cooking.

@@ -10,7 +10,8 @@ import { MobileMenu } from 'Molecules/MobileMenu';
 const headerItems: {href: string; title: string;}[] = [
     {"href": "/about", "title": "About"},
     {"href": "/work", "title": "Work"},
-    {"href": "/projects", "title": "Projects"}
+    {"href": "/projects", "title": "Projects"},
+	{"href": "/blog", "title": "Blog"}
 ];
 
 const Header = () => {

@@ -1,18 +1,18 @@
 import React from "react";
 
 interface SkillsProps {
-    Programming: string[];
-    Web Dev: string[];
-    DevOps: string[];
-    Analytics: string[];
+    "Programming": string[];
+    "DevOps": string[];
+    "Web Dev": string[];
+    "Analytics": string[];
 }
 
 const Skills: React.FC = () => {
     const skills: SkillsProps = {
-        "Programming": ["Python", "C++", "Elixir", "Bash"],
-        "Web Dev": ["Flask", "Phoenix", "JavaScript", "React", "TypeScript", "REST", "Redux"],
-        "DevOps": ["AWS", "Docker", "Kubernetes", "Jenkins", "Airflow", "Azure"],
-        "Analytics": ["SQL", "Excel/VBA", "R", "PySpark", "Pandas", "SKLearn", "MLlib"]
+        "Programming": ["Python", "JavaScript", "Go", "Bash"],
+        "DevOps": ["Docker", "Kubernetes", "Jenkins", "Airflow", "Git", "Linux", "Bazel"],
+        "Web Dev": ["Flask", "TypeScript", "React", "REST", "FastAPI", "Phoenix"],
+        "Analytics": ["SQL", "Excel/VBA", "PySpark", "Pandas", "SKLearn"]
     }
 
     return (
