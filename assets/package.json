@@ -25,5 +25,8 @@
   },
   "scripts": {
     "deploy": "npx tailwindcss --postcss --minify --input=css/app.css --output=../priv/static/assets/app.css"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3"
   }
 }
